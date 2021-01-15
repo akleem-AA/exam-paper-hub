@@ -1,0 +1,29 @@
+body::before{
+    content: "";
+    background:url(/krishna-college-of-law-bijnor-krishna-college-of-law-0002.jpg) no-repeat center center/cover;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: .85;
+    top: 0px;
+    left: 0px;
+    filter: blur(3px);
+    -webkit-filter: blur(3px);
+}
+.collapse:not(.show) {
+    margin-left: 38rem;
+}
+.information{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    height: 77vh;
+    flex-direction: column;
+}
+@media (min-width:200px) and (max-width: 600px){
+    .college-name h1{
+        font-size: 1rem
+    }
+}
